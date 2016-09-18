@@ -30,6 +30,7 @@ CollegeStudent CS = new CollegeStudent("S", 25,"male",111, 3.5, 2, "computer sci
       CollegeStudent ima = new CollegeStudent("Ima Frosh", 18, "F", 123, 4.0, 1, "English");
         System.out.println(ima);
 
+        
 
     }
 }

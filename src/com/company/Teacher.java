@@ -43,12 +43,11 @@ public class Teacher extends Person{
         setSalary(salary);
     }
     public String toString(){//overriding the toString() method
-
-        return  "Name: "+ getMyName() + "\n"+
-                "Age: "+ getMyAge() +"\n"+
+        return  super.toString()+"\n"+
                 "Subject: "+ this.subject +"\n"+
-                "Salary: "+ this.salary +"\n"+
-                "Gender: "+ getMyGender();
+                "Salary: "+ this.salary;
+
+
     }
     public String getSubject() {
         return subject;
